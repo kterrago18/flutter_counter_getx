@@ -54,3 +54,19 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+class Other extends StatelessWidget {
+  Other({super.key});
+
+  final Controller c = Get.find();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Other'),
+      ),
+      body: Center(child: Text('${c.count}')),
+    );
+  }
+}
