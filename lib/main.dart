@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_counter_getx/controller.dart';
 import 'package:get/get.dart';
 
 void main() {
